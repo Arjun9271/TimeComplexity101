@@ -176,6 +176,40 @@ def func(n):
 4. **Precompute Results**:
 
    - Avoid redundant computations inside loops by precomputing values.
+# Time Complexity Order
+
+This document provides a list of common time complexities in ascending order along with their symbols.
+
+## Time Complexities in Ascending Order
+
+1. **O(1)** - Constant time
+   - The algorithm takes the same constant time regardless of the input size.
+   
+2. **O(log n)** - Logarithmic time
+   - The algorithm's time grows logarithmically with the input size.
+   
+3. **O(n)** - Linear time
+   - The algorithm's time grows linearly with the input size.
+
+4. **O(n log n)** - Log-linear time
+   - The algorithm’s time grows as the product of the input size and its logarithm.
+
+5. **O(n²)** - Quadratic time
+   - The algorithm's time grows quadratically with the input size.
+
+6. **O(n³)** - Cubic time
+   - The algorithm's time grows cubically with the input size.
+
+7. **O(2^n)** - Exponential time
+   - The algorithm’s time doubles with each additional input element.
+
+8. **O(n!)** - Factorial time
+   - The algorithm's time grows factorially with the input size.
+
+## Conclusion
+
+Understanding time complexities helps in analyzing the efficiency of algorithms. Algorithms with lower time complexities (e.g., O(1), O(log n)) are generally more efficient, especially for large inputs.
+
 
 ---
 
